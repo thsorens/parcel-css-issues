@@ -1,0 +1,20 @@
+{
+  "name": "parcel-css-issues",
+  "version": "1.0.0",
+  "description": "repro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./index.js -d wwwroot/dist -o main-client --log-level 3 --public-url ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thsorens/parcel-css-issues.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thsorens/parcel-css-issues/issues"
+  },
+  "homepage": "https://github.com/thsorens/parcel-css-issues#readme"
+}
